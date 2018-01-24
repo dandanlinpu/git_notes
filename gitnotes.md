@@ -29,8 +29,8 @@
 ## 二、日常使用
 ### 1. 首次安装git配置
 配置用户名和邮箱：
-git config –global user.email ldd@ldd.com\
-git config –global user.name ldd
+`git config –global user.email 邮箱`\
+`git config –global user.name 姓名`
 
 配置连接github公钥：
 本地生成公钥，在git bash中： ssh-keygen -t rsa,将生成的公钥文件id_rsa内容添置github网站对应位置
