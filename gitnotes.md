@@ -28,6 +28,9 @@
 >git pull = git fetch + git merge
 ## 二、日常使用
 ### 1. 首次安装git配置
+配置软件显示中文不乱码：
+options->Default File Contents Encoding，change为UTF-8
+
 配置用户名和邮箱：
 `git config –global user.email 邮箱`\
 `git config –global user.name 姓名`
