@@ -35,6 +35,12 @@ options->Default File Contents Encoding，change为UTF-8
 `git config –global user.email 邮箱`\
 `git config –global user.name 姓名`
 
+.gitignore文件每个忽略项目单独一行：
+.obj \
+thumbs.db \
+node_modules/ \
+dist/
+
 配置连接github公钥：
 本地生成公钥，在git bash中： ssh-keygen -t rsa,将生成的公钥文件id_rsa内容添置github网站对应位置
 ### 2. 已有远程库
