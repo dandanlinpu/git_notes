@@ -35,7 +35,7 @@ options->Default File Contents Encoding，change为UTF-8
 `git config –global user.email 邮箱`\
 `git config –global user.name 姓名`
 
-.gitignore文件每个忽略项目单独一行：
+.gitignore文件每个忽略项目单独一行：\
 .obj \
 thumbs.db \
 node_modules/ \
