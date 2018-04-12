@@ -46,7 +46,7 @@ dist/
 ### 2. 已有远程库
 先进行下载：git clone https://github.com/dandanlinpu/test.git
 ### 3. 已有本地库
-要上传到github?
+要上传到github,先建立远程库，然后git clone下来后将自己的代码加入，再进行git push
 ### 4. 要将本地库和远程库联系起来
 git remote add 自己起的主机名 远程库地址,如git remote add test https://github.com/dandanlinpu/test.git
 ### 5. 状态
